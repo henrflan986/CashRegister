@@ -79,7 +79,7 @@ namespace pizza_parler
 
         private void calculatingTheChange_Click(object sender, EventArgs e)
         {
-            enterMoney = Convert.ToDouble(enterMoneyInput.Text);
+            enterMoney = Convert.ToDouble(enterMoneyInput.Text);  
             
 
             change = enterMoney - netPay;
